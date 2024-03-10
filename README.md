@@ -2,10 +2,10 @@
 本项目旨在对LLM相关的论文进行整理和分类。
 
 ## Table of Contents
-- Survey(#survey)
-- Model(#model)
-- VLM(#vlm)
-- Hallucination(#hallucination)
+- [Survey](#survey)
+- [Model](#model)
+- [VLM](#vlm)
+- [Hallucination](#hallucination)
 
 ## Survey
 - [Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing](https://arxiv.org/pdf/2107.13586.pdf) *Pengfei Liu, Weizhe Yuan, Jinlan Fu, and etc.*
