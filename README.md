@@ -31,6 +31,13 @@
 - [PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/pdf/2204.02311.pdf) *Aakanksha Chowdhery, Sharan Narang, Jacob Devlin, and etc.*
 - [GLM: General Language Model Pretraining with Autoregressive Blank Infilling](https://arxiv.org/pdf/2103.10360.pdf) *Zhengxiao Du, Yujie Qian, Xiao Liu, and etc.*
 - [Unified Language Model Pre-training for Natural Language Understanding and Generation](https://arxiv.org/pdf/1905.03197.pdf) *Li Dong, Nan Yang, Wenhui Wang, and etc.*
+- [CPT: A Pre-Trained Unbalanced Transformer for Both Chinese Language Understanding and Generation](https://arxiv.org/pdf/2109.05729.pdf) *Yunfan Shao, Zhichao Geng, Yitao Liu, and etc.*
+- [BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension](https://aclanthology.org/2020.acl-main.703.pdf) *Mike Lewis, Yinhan Liu, Naman Goyal, and etc.* 
+- [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/pdf/1910.10683.pdf) *Colin Raffel, Noam Shazeer, Adam Roberts, and etc.*
+- [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://aclanthology.org/N19-1423.pdf) *Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova*
+
+## Data
+- [LESS: Selecting Influential Data for Targeted Instruction Tuning](https://arxiv.org/pdf/2402.04333.pdf) *Mengzhou Xia, Sadhika Malladi, Suchin Gururangan, and etc.*
 
 ## VLM
 - [MoE-LLaVA: Mixture of Experts for Large Vision-Language Models](https://arxiv.org/pdf/2401.15947.pdf) *Bin Lin, Zhenyu Tang, Yang Ye, and etc.*
