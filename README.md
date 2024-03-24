@@ -7,8 +7,8 @@
 - [RLHF](#rlhf)
 - [Data](#data)
 - [PEFT](#parameter-efficient-fine-tuning)
-- [VLM](#vlm)
 - [Hallucination](#hallucination)
+- [VLM](#vlm)
 
 ## Survey
 - [Large Multimodal Agents: A Survey](https://arxiv.org/pdf/2402.15116.pdf) *Junlin Xie, Zhihong Chen, Ruifei Zhang, Xiang Wan, Guanbin Li*
