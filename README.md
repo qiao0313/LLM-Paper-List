@@ -4,11 +4,11 @@
 ## Table of Contents
 - [Survey](#survey)
 - [Model](#model)
-- [RLHF](#rlhf)
+- [Alignment](#alignment)
 - [Data](#data)
 - [PEFT](#parameter-efficient-fine-tuning)
-- [Hallucination](#hallucination)
 - [VLM](#vlm)
+- [Hallucination](#hallucination)
 
 ## Survey
 - [Large Multimodal Agents: A Survey](https://arxiv.org/pdf/2402.15116.pdf) *Junlin Xie, Zhihong Chen, Ruifei Zhang, Xiang Wan, Guanbin Li*
@@ -49,7 +49,7 @@
 - [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/pdf/1910.10683.pdf) *Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu*
 - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://aclanthology.org/N19-1423.pdf) *Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova*
 
-## RLHF
+## Alignment
 - [Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://arxiv.org/pdf/2305.18290.pdf) *Rafael Rafailov, Archit Sharma, Eric Mitchell, Stefano Ermon, Christopher D. Manning, Chelsea Finn*
 
 ## Data
