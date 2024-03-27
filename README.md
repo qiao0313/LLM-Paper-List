@@ -4,13 +4,21 @@
 ## Table of Contents
 - [Survey](#survey)
 - [Model](#model)
+- [Fine-Tuning](#fine-tuning)
 - [Alignment](#alignment)
 - [Data](#data)
 - [PEFT](#parameter-efficient-fine-tuning)
-- [VLM](#vlm)
+- [Prompt](#prompt)
+- [Sequence Length](#sequence-length)
 - [Hallucination](#hallucination)
+- [RAG](#rag)
+- [Agent](#agent)
+- [VLM](#vlm)
+- [Other Applicants](#other-applicants)
 
 ## Survey
+- [If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code Empowers Large Language Models to Serve as Intelligent Agents](https://arxiv.org/pdf/2401.00812v1.pdf) *Ke Yang, Jiateng Liu, John Wu, Chaoqi Yang, Yi R. Fung, Sha Li, Zixuan Huang, Xu Cao, Xingyao Wang, Yiquan Wang, Heng Ji, Chengxiang Zhai*
+- [Parameter-Efficient Fine-Tuning for Large Models: A Comprehensive Survey](https://arxiv.org/pdf/2403.14608.pdf) *Zeyu Han, Chao Gao, Jinyang Liu, Jeff (Jun)Zhang, Sai Qian Zhang*
 - [Large Multimodal Agents: A Survey](https://arxiv.org/pdf/2402.15116.pdf) *Junlin Xie, Zhihong Chen, Ruifei Zhang, Xiang Wan, Guanbin Li*
 - [Towards Efficient Generative Large Language Model Serving: A Survey from Algorithms to Systems](https://arxiv.org/pdf/2312.15234.pdf) *Xupeng Miao, Gabriele Oliaro, Zhihao Zhang, Xinhao Cheng, Hongyi Jin, Tianqi Chen, Zhihao Jia*
 - [Beyond Efficiency: A Systematic Survey of Resource-Efficient Large Language Models](https://arxiv.org/pdf/2401.00625.pdf) *Guangji Bai, Zheng Chai, Chen Ling, Shiyu Wang, Jiaying Lu, Nan Zhang, Tingwei Shi, Ziyang Yu, Mengdan Zhu, Yifei Zhang, Carl Yang, Yue Cheng, Liang Zhao*
@@ -49,8 +57,18 @@
 - [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/pdf/1910.10683.pdf) *Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu*
 - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://aclanthology.org/N19-1423.pdf) *Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova*
 
+## Fine-Tuning
+- [The Unreasonable Effectiveness of Easy Training Data for Hard Tasks](https://arxiv.org/pdf/2401.06751.pdf) *Peter Hase, Mohit Bansal, Peter Clark, Sarah Wiegreffe*
+- [Scaling Data-Constrained Language Models](https://arxiv.org/pdf/2305.16264.pdf) *Niklas Muennighoff, Alexander M. Rush, Boaz Barak, Teven Le Scao, Aleksandra Piktus, Nouamane Tazi, Sampo Pyysalo, Thomas Wolf, Colin Raffel*
+- [Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models](https://arxiv.org/pdf/2401.01335.pdf) *Zixiang Chen, Yihe Deng, Huizhuo Yuan, Kaixuan Ji, Quanquan Gu*
+- [Contrastive Preference Optimization: Pushing the Boundaries of LLM Performance in Machine Translation](https://arxiv.org/pdf/2401.08417.pdf) *Haoran Xu, Amr Sharaf, Yunmo Chen, Weiting Tan, Lingfeng Shen, Benjamin Van Durme, Kenton Murray, Young Jin Kim*
+
 ## Alignment
+- [Secrets of RLHF in Large Language Models Part II: Reward Modeling](https://arxiv.org/pdf/2401.06080.pdf) *Binghai Wang, Rui Zheng, Lu Chen, Yan Liu, Shihan Dou, Caishuang Huang, Wei Shen, Senjie Jin, Enyu Zhou, Chenyu Shi, Songyang Gao, Nuo Xu, Yuhao Zhou, Xiaoran Fan, Zhiheng Xi, Jun Zhao, Xiao Wang, Tao Ji, Hang Yan, Lixing Shen, Zhan Chen, Tao Gui, Qi Zhang, Xipeng Qiu, Xuanjing Huang, Zuxuan Wu, Yu-Gang Jiang*
+- [Secrets of RLHF in Large Language Models Part I: PPO](https://arxiv.org/pdf/2307.04964.pdf) *Rui Zheng, Shihan Dou, Songyang Gao, Yuan Hua, Wei Shen, Binghai Wang, Yan Liu, Senjie Jin, Qin Liu, Yuhao Zhou, Limao Xiong, Lu Chen, Zhiheng Xi, Nuo Xu, Wenbin Lai, Minghao Zhu, Cheng Chang, Zhangyue Yin, Rongxiang Weng, Wensen Cheng, Haoran Huang, Tianxiang Sun, Hang Yan, Tao Gui, Qi Zhang, Xipeng Qiu, Xuanjing Huang*
 - [Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://arxiv.org/pdf/2305.18290.pdf) *Rafael Rafailov, Archit Sharma, Eric Mitchell, Stefano Ermon, Christopher D. Manning, Chelsea Finn*
+- [Self-Rewarding Language Models](https://arxiv.org/pdf/2401.10020.pdf) *Weizhe Yuan, Richard Yuanzhe Pang, Kyunghyun Cho, Xian Li, Sainbayar Sukhbaatar, Jing Xu, Jason Weston*
+- [Proximal Policy Optimization Algorithms](https://arxiv.org/pdf/1707.06347.pdf) *John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, Oleg Klimov*
 
 ## Data
 - [LESS: Selecting Influential Data for Targeted Instruction Tuning](https://arxiv.org/pdf/2402.04333.pdf) *Mengzhou Xia, Sadhika Malladi, Suchin Gururangan, Sanjeev Arora, Danqi Chen*
@@ -59,8 +77,25 @@
 - [DoRA: Weight-Decomposed Low-Rank Adaptation](https://arxiv.org/pdf/2402.09353.pdf) *Shih-Yang Liu, Chien-Yi Wang, Hongxu Yin, Pavlo Molchanov, Yu-Chiang Frank Wang, Kwang-Ting Cheng, Min-Hung Chen*
 - [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/pdf/2106.09685.pdf) *Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, Weizhu Chen*
 
+## Prompt
+- [Principled Instructions Are All You Need for Questioning LLaMA-1/2, GPT-3.5/4](https://arxiv.org/pdf/2312.16171.pdf) *Sondos Mahmoud Bsharat, Aidar Myrzakhan, Zhiqiang Shen*
+
+## Sequence Length
+- [LLM Maybe LongLM: Self-Extend LLM Context Window Without Tuning](https://arxiv.org/pdf/2401.01325.pdf) *Hongye Jin, Xiaotian Han, Jingfeng Yang, Zhimeng Jiang, Zirui Liu, Chia-Yuan Chang, Huiyuan Chen, Xia Hu*
+- [Lightning Attention-2: A Free Lunch for Handling Unlimited Sequence Lengths in Large Language Models](https://arxiv.org/pdf/2401.04658.pdf) *Zhen Qin, Weigao Sun, Dong Li, Xuyang Shen, Weixuan Sun, Yiran Zhong*
+
 ## Hallucination
 - [INSIDE: LLMs' Internal States Retain the Power of Hallucination Detection](https://arxiv.org/pdf/2402.03744.pdf) *Chao Chen, Kai Liu, Ze Chen, Yi Gu, Yue Wu, Mingyuan Tao, Zhihang Fu, Jieping Ye*
+
+## RAG
+- [Accelerating Retrieval-Augmented Language Model Serving with Speculation](https://arxiv.org/pdf/2401.14021.pdf) *Zhihao Zhang, Alan Zhu, Lijie Yang, Yihua Xu, Lanting Li, Phitchaya Mangpo Phothilimthana, Zhihao Jia*
+- [RAG makes LLMs better and equal](https://www.pinecone.io/blog/rag-study/) *Amnon Catav, Roy Miara, Ilai Giloh, Nathan Cordeiro, Amir Ingber*
+
+## Agent
+- [The Rise and Potential of Large Language Model Based Agents: A Survey](https://arxiv.org/pdf/2309.07864.pdf) *Zhiheng Xi, Wenxiang Chen, Xin Guo, Wei He, Yiwen Ding, Boyang Hong, Ming Zhang, Junzhe Wang, Senjie Jin, Enyu Zhou, Rui Zheng, Xiaoran Fan, Xiao Wang, Limao Xiong, Yuhao Zhou, Weiran Wang, Changhao Jiang, Yicheng Zou, Xiangyang Liu, Zhangyue Yin, Shihan Dou, Rongxiang Weng, Wensen Cheng, Qi Zhang, Wenjuan Qin, Yongyan Zheng, Xipeng Qiu, Xuanjing Huang, Tao Gui*
+- [AUTOACT: Automatic Agent Learning from Scratch via Self-Planning](https://arxiv.org/pdf/2401.05268.pdf) *Shuofei Qiao, Ningyu Zhang, Runnan Fang, Yujie Luo, Wangchunshu Zhou, Yuchen Eleanor Jiang, Chengfei Lv, Huajun Chen*
+- [Tell Me More! Towards Implicit User Intention Understanding of Language Model Driven Agents](https://arxiv.org/pdf/2402.09205.pdf) *Cheng Qian, Bingxiang He, Zhong Zhuang, Jia Deng, Yujia Qin, Xin Cong, Zhong Zhang, Jie Zhou, Yankai Lin, Zhiyuan Liu, Maosong Sun*
+- [Building Cooperative Embodied Agents Modularly with Large Language Models](https://arxiv.org/pdf/2307.02485.pdf) *Hongxin Zhang, Weihua Du, Jiaming Shan, Qinhong Zhou, Yilun Du, Joshua B. Tenenbaum, Tianmin Shu, Chuang Gan*
 
 ## VLM
 - [MoE-LLaVA: Mixture of Experts for Large Vision-Language Models](https://arxiv.org/pdf/2401.15947.pdf) *Bin Lin, Zhenyu Tang, Yang Ye, Jiaxi Cui, Bin Zhu, Peng Jin, Jinfa Huang, Junwu Zhang, Munan Ning, Li Yuan*
@@ -72,3 +107,12 @@
 - [VisualGPT: Data-efficient Adaptation of Pretrained Language Models for Image Captioning](https://arxiv.org/pdf/2102.10407.pdf) *Jun Chen, Han Guo, Kai Yi, Boyang Li, Mohamed Elhoseiny*
 - [InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning](https://arxiv.org/pdf/2305.06500.pdf) *Wenliang Dai, Junnan Li, Dongxu Li, Anthony Meng Huat Tiong, Junqi Zhao, Weisheng Wang, Boyang Li, Pascale Fung, Steven Hoi*
 - [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/pdf/2301.12597.pdf) *Junnan Li, Dongxu Li, Silvio Savarese, Steven Hoi*
+
+## Other Applicants
+- [Narrowing the Knowledge Evaluation Gap: Open-Domain Question Answering with Multi-Granularity Answers](https://arxiv.org/pdf/2401.04695.pdf) *Gal Yona, Roee Aharoni, Mor Geva*
+- [Improving Text Embeddings with Large Language Models](https://arxiv.org/pdf/2401.00368.pdf) *Liang Wang, Nan Yang, Xiaolong Huang, Linjun Yang, Rangan Majumder, Furu Wei*
+- [DocLLM: A layout-aware generative language model for multimodal document understanding](https://arxiv.org/pdf/2401.00908.pdf) *Dongsheng Wang, Natraj Raman, Mathieu Sibue, Zhiqiang Ma, Petr Babkin, Simerjot Kaur, Yulong Pei, Armineh Nourbakhsh, Xiaomo Liu*
+- [Generative Multi-Modal Knowledge Retrieval with Large Language Models](https://arxiv.org/pdf/2401.08206.pdf) *Xinwei Long, Jiali Zeng, Fandong Meng, Zhiyuan Ma, Kaiyan Zhang, Bowen Zhou, Jie Zhou*
+- [Ada-Retrieval: An Adaptive Multi-Round Retrieval Paradigm for Sequential Recommendations](https://arxiv.org/pdf/2401.06633.pdf) *Lei Li, Jianxun Lian, Xiao Zhou, Xing Xie*
+- [Large Language Models Are Neurosymbolic Reasoners](https://arxiv.org/pdf/2401.09334.pdf) *Meng Fang, Shilong Deng, Yudi Zhang, Zijing Shi, Ling Chen, Mykola Pechenizkiy, Jun Wang*
+- [APAR: LLMs Can Do Auto-Parallel Auto-Regressive Decoding](https://arxiv.org/pdf/2401.06761.pdf) *Mingdao Liu, Aohan Zeng, Bowen Wang, Peng Zhang, Jie Tang, Yuxiao Dong*
